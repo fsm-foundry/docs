@@ -1,0 +1,64 @@
+baseURL: 'https://fsm-foundry.github.io'
+title: 'pgFsm Docs'
+theme: 'hugo-book'
+languageCode: en-us
+pagination.pagerSize: 5
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+publishDir: ../docs
+disablePathToLower: true
+enableGitInfo: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+  highlight:
+    style: 'base16-snazzy'
+
+languages:
+  en:
+    label: English
+    contentDir: content
+    weight: 1
+
+minify:
+  disableXML: true
+  minifyOutput: false
+
+params:
+  BookTheme: 'light'
+  BookSection: 'docs'
+  BookSearch: true
+  BookToC: true
+  BookRepo: 'https://github.com/fsm-foundry'
+  BookPortableLinks: false
+  BookServiceWorker: false
+  BookComments: false
+  BookFavicon: "favicon/favicon.ico"
+  BookLogo: "favicon/apple-touch-icon.png"
+  # BookEditLink: "https://github.com/fsm-foundry/docs/edit/main/{{ .Path }}"
+
+menu:
+  home:
+    - name: "Documentation"
+      pageRef: "/docs/"
+      weight: 1
+    # - pageRef: "/docs/example/"
+    #   weight: 1
+    #   parent: "Documentation"
+    - name: "Github"
+      url: "https://github.com/fsm-foundry/fsm"
+      weight: 3
+
+  # before: []
+  # after:
+  #   - name: "Github"
+  #     url: "https://github.com/fsm-foundry/fsm"
+  #     weight: 20
