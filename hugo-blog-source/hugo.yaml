@@ -1,4 +1,4 @@
-baseURL: 'https://fsm-foundry.github.io'
+baseURL: 'https://fsm-foundry.github.io/docs'
 title: 'pgFsm Docs'
 theme: 'hugo-book'
 languageCode: en-us

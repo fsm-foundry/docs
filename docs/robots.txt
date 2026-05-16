@@ -1,9 +1,9 @@
 pgFsm Docs
 
-- Documentation: https://fsm-foundry.github.io/docs/
-- Get Started: https://fsm-foundry.github.io/docs/get-started/
-- Why pgFsm: https://fsm-foundry.github.io/docs/why-pgFsm/
-- Develop with Typescript: https://fsm-foundry.github.io/docs/Develop-with-TypeScript/
-- Develop with Python: https://fsm-foundry.github.io/docs/Develop-with-Pyhton/
+- Documentation: https://fsm-foundry.github.io/docs/docs/
+- Get Started: https://fsm-foundry.github.io/docs/docs/get-started/
+- Why pgFsm: https://fsm-foundry.github.io/docs/docs/why-pgFsm/
+- Develop with Typescript: https://fsm-foundry.github.io/docs/docs/Develop-with-TypeScript/
+- Develop with Python: https://fsm-foundry.github.io/docs/docs/Develop-with-Pyhton/
 
 

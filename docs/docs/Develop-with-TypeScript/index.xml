@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Develop with Typescript on pgFsm Docs</title>
-    <link>https://fsm-foundry.github.io/docs/Develop-with-TypeScript/</link>
+    <link>https://fsm-foundry.github.io/docs/docs/Develop-with-TypeScript/</link>
     <description>Recent content in Develop with Typescript on pgFsm Docs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://fsm-foundry.github.io/docs/Develop-with-TypeScript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fsm-foundry.github.io/docs/docs/Develop-with-TypeScript/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
