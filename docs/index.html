@@ -9,32 +9,44 @@ https://github.com/alex-shpak/hugo-book
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="pgFsm Documentation# Welcome to the Postgres FSM documentation site.
+<meta name="description" content=" Workflow State Machines, Powered by PostgreSQL Define states. Enforce transitions. Let Postgres do the rest.
+Get Started Why pgFsm
+Capabilities# Durable by Default# ACID-compliant state transitions backed by PostgreSQL. Every state change is crash-safe, transactional, and fully auditable — no extra infrastructure needed.
+Single Source of Truth# The database enforces your workflow rules — not scattered application code. Define allowed transitions once; every service respects them automatically.
+Language Agnostic# TypeScript, Python, Go, Java — any language queries the same FSM layer. Bring new services into your system without redefining state machines.
 ">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2e3440">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://fsm-foundry.github.io/docs/">
   <meta property="og:site_name" content="pgFsm Docs">
-  <meta property="og:title" content="pgFsm docs">
-  <meta property="og:description" content="pgFsm Documentation# Welcome to the Postgres FSM documentation site.">
+  <meta property="og:title" content="pgFsm">
+  <meta property="og:description" content="Workflow State Machines, Powered by PostgreSQL Define states. Enforce transitions. Let Postgres do the rest.
+Get Started Why pgFsm
+Capabilities# Durable by Default# ACID-compliant state transitions backed by PostgreSQL. Every state change is crash-safe, transactional, and fully auditable — no extra infrastructure needed.
+Single Source of Truth# The database enforces your workflow rules — not scattered application code. Define allowed transitions once; every service respects them automatically.
+Language Agnostic# TypeScript, Python, Go, Java — any language queries the same FSM layer. Bring new services into your system without redefining state machines.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
-  <meta itemprop="name" content="pgFsm docs">
-  <meta itemprop="description" content="pgFsm Documentation# Welcome to the Postgres FSM documentation site.">
-  <meta itemprop="dateModified" content="2026-05-17T03:52:13+05:30">
-  <meta itemprop="wordCount" content="9">
+  <meta itemprop="name" content="pgFsm">
+  <meta itemprop="description" content="Workflow State Machines, Powered by PostgreSQL Define states. Enforce transitions. Let Postgres do the rest.
+Get Started Why pgFsm
+Capabilities# Durable by Default# ACID-compliant state transitions backed by PostgreSQL. Every state change is crash-safe, transactional, and fully auditable — no extra infrastructure needed.
+Single Source of Truth# The database enforces your workflow rules — not scattered application code. Define allowed transitions once; every service respects them automatically.
+Language Agnostic# TypeScript, Python, Go, Java — any language queries the same FSM layer. Bring new services into your system without redefining state machines.">
+  <meta itemprop="dateModified" content="2026-05-17T16:58:52+05:30">
+  <meta itemprop="wordCount" content="296">
 
-<title>pgFsm docs | pgFsm Docs</title>
+<title>pgFsm | pgFsm Docs</title>
 <link rel="icon" href="/docs/favicon/favicon.ico" >
 <link rel="manifest" href="/docs/manifest.json">
 <link rel="canonical" href="https://fsm-foundry.github.io/docs/">
 <link rel="stylesheet" href="/docs/book.min.0145600d9941ef0987d0ca3034b494d5d854a374fe3e6014e1d5b63b23c9e6d6.css" integrity="sha256-AUVgDZlB7wmH0MowNLSU1dhUo3T&#43;PmAU4dW2OyPJ5tY=" crossorigin="anonymous">
 
 
-  <script defer type="module" src="/docs/en.search.min.44b51c0450a3ce8c013a5c6d1b344f37b8922c8cdc50a07f1348475abb91e436.js" integrity="sha256-RLUcBFCjzowBOlxtGzRPN7iSLIzcUKB/E0hHWruR5DY=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://fsm-foundry.github.io/docs/index.xml" title="pgFsm docs" />
+  <script defer type="module" src="/docs/en.search.min.6f17f4c2d8662a6baa3d7df397f9c2d2e619bc16bc130d202cc695dc32a8d2ba.js" integrity="sha256-bxf0wthmKmuqPX3zl/nC0uYZvBa8Ew0gLMaV3DKo0ro=" crossorigin="anonymous"></script>
+<link rel="alternate" type="application/rss+xml" href="https://fsm-foundry.github.io/docs/index.xml" title="pgFsm" />
 
   
 </head>
@@ -61,8 +73,104 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><h1 id="pgfsm-documentation">pgFsm Documentation<a class="anchor" href="#pgfsm-documentation">#</a></h1>
-<p>Welcome to the Postgres FSM documentation site.</p>
+  <article class="markdown book-article"><div class="book-hero">
+<h1 id="workflow-state-machines-powered-by-postgresql">Workflow State Machines, Powered by PostgreSQL</h1>
+<p>Define states. Enforce transitions. Let Postgres do the rest.</p>
+<p><a class="book-btn" href="/docs/docs/get-started/" >Get Started</a>
+<a class="book-btn" href="/docs/docs/Concept/whyFsmInPostgres/" >Why pgFsm</a></p>
+</div>
+<hr>
+<h2 id="capabilities">Capabilities<a class="anchor" href="#capabilities">#</a></h2>
+<div class="book-columns" id="book-columns-2" >
+<ul>
+<li>
+<div class="book-card"><div class="markdown-inner">
+<h2 id="durable-by-default">Durable by Default<a class="anchor" href="#durable-by-default">#</a></h2>
+<p>ACID-compliant state transitions backed by PostgreSQL. Every state change is crash-safe, transactional, and fully auditable — no extra infrastructure needed.</p>
+</div></div>
+</li>
+<li>
+<div class="book-card"><div class="markdown-inner">
+<h2 id="single-source-of-truth">Single Source of Truth<a class="anchor" href="#single-source-of-truth">#</a></h2>
+<p>The database enforces your workflow rules — not scattered application code. Define allowed transitions once; every service respects them automatically.</p>
+</div></div>
+</li>
+<li>
+<div class="book-card"><div class="markdown-inner">
+<h2 id="language-agnostic">Language Agnostic<a class="anchor" href="#language-agnostic">#</a></h2>
+<p>TypeScript, Python, Go, Java — any language queries the same FSM layer. Bring new services into your system without redefining state machines.</p>
+</div></div>
+</li>
+</ul>
+</div>
+<div class="book-columns" id="book-columns-3" >
+<ul>
+<li>
+<div class="book-card"><div class="markdown-inner">
+<h3 id="strong-integrity">Strong Integrity<a class="anchor" href="#strong-integrity">#</a></h3>
+<p>Invalid transitions are blocked at the database level via constraints and triggers. Your application cannot accidentally skip a required state.</p>
+</div></div>
+</li>
+<li>
+<div class="book-card"><div class="markdown-inner">
+<h3 id="built-in-history">Built-in History<a class="anchor" href="#built-in-history">#</a></h3>
+<p>Every state change is recorded as a row. Query &ldquo;where is this workflow now?&rdquo; or &ldquo;what path did it take?&rdquo; with plain SQL — no special tooling needed.</p>
+</div></div>
+</li>
+<li>
+<div class="book-card"><div class="markdown-inner">
+<h3 id="scalable-coordination">Scalable Coordination<a class="anchor" href="#scalable-coordination">#</a></h3>
+<p>Multiple services and workers safely read and update shared FSM-backed records. PostgreSQL handles locking and consistency across all callers.</p>
+</div></div>
+</li>
+</ul>
+</div>
+<hr>
+<h2 id="how-it-works">How It Works<a class="anchor" href="#how-it-works">#</a></h2>
+<p>pgFsm models your business process as <strong>states</strong>, <strong>events</strong>, and <strong>transitions</strong> stored directly in PostgreSQL. When a transition fires, the database validates it against defined rules and records the change atomically — giving you deterministic, recoverable, observable workflows without a separate orchestration service.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Concern</th>
+          <th>Flowchart / BPMN</th>
+          <th>pgFsm Statechart</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Execution</td>
+          <td>Engine interprets diagram</td>
+          <td>Direct runtime state transitions</td>
+      </tr>
+      <tr>
+          <td>Failure handling</td>
+          <td>Events, timers, engine retries</td>
+          <td>Explicit transitions, guards, error states</td>
+      </tr>
+      <tr>
+          <td>Change impact</td>
+          <td>Broad, governance-heavy</td>
+          <td>Transition-level diffs, easy to audit</td>
+      </tr>
+      <tr>
+          <td>Best fit</td>
+          <td>Cross-team process visibility</td>
+          <td>Event-driven systems with strict behavioral control</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="client-libraries">Client Libraries<a class="anchor" href="#client-libraries">#</a></h2>
+<p>Connect from any language using existing ecosystem libraries:</p>
+<p>comming soon.</p>
+<!-- <span class="book-badge default" ><span class="book-badge-title">TypeScript</span><span class="book-badge-value">xstate</span></span>
+<span class="book-badge default" ><span class="book-badge-title">Python</span><span class="book-badge-value">transitions</span></span>
+<span class="book-badge default" ><span class="book-badge-title">Go</span><span class="book-badge-value">looplab/fsm</span></span>
+<span class="book-badge default" ><span class="book-badge-title">Java</span><span class="book-badge-value">Spring State Machine</span></span> -->
+<blockquote class='book-hint note'>
+<p>pgFsm acts as the authoritative FSM layer in PostgreSQL. Client libraries handle local state modeling; pgFsm enforces correctness and persistence.</p></blockquote><hr>
+<p>Ready to model your first workflow in Postgres?</p>
+<a class="book-btn" href="/docs/docs/get-started/" >Get Started</a>
 </article>
  
       
