@@ -1,7 +1,7 @@
 ---
 title: "Get Started"
 weight: 2
-bookCollapseSection: true
+bookFlatSection: true
 ---
 
 # Get Started

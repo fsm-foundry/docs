@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://fsm-foundry.github.io/docs/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://fsm-foundry.github.io/docs/docs/get-started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fsm-foundry.github.io/docs/docs/get-started/</guid>
+      <description>&lt;h1 id=&#34;get-started&#34;&gt;Get Started&lt;a class=&#34;anchor&#34; href=&#34;#get-started&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;</description>
+    </item>
   </channel>
 </rss>
