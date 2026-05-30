@@ -6,5 +6,8 @@ pgFsm Docs
 - 2. Why FSM in Postgres: https://fsm-foundry.github.io/docs/docs/Concept/whyFsmInPostgres/
 - Develop with Typescript: https://fsm-foundry.github.io/docs/docs/DevelopWithTypeScript/
 - Develop with Python: https://fsm-foundry.github.io/docs/docs/DevelopWithPyhton/
+- Inspiration: https://fsm-foundry.github.io/docs/docs/inspiration/
+- pgFsm Vs. DBOS: https://fsm-foundry.github.io/docs/docs/pgFsmVsOtherSystem/pgFsmVsDBOS/
+- pgFsm Vs. Temporal: https://fsm-foundry.github.io/docs/docs/pgFsmVsOtherSystem/pgFsmVsTemporal/
 
 

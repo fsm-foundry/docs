@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Concept on pgFsm Docs</title>
+    <link>http://localhost:1313/docs/docs/inspration/</link>
+    <description>Recent content in Concept on pgFsm Docs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/docs/docs/inspration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Why FSM</title>
+      <link>http://localhost:1313/docs/docs/inspration/whyFsm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/docs/inspration/whyFsm/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Why Finite State Machine ( State Chart )&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-visual-diagram-are-better-than-text&#34;&gt;1. Visual diagram are better than Text&lt;a class=&#34;anchor&#34; href=&#34;#1-visual-diagram-are-better-than-text&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;some info&lt;/p&gt;&#xA;&lt;h2 id=&#34;2-which-diagram-is-better-&#34;&gt;2. Which Diagram is better ?&lt;a class=&#34;anchor&#34; href=&#34;#2-which-diagram-is-better-&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;diffrent-type-of-diagram&#34;&gt;Diffrent type of Diagram&lt;a class=&#34;anchor&#34; href=&#34;#diffrent-type-of-diagram&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;comapare-state-chart-flowchart-bpmn-other-uml-diagram&#34;&gt;Comapare state chart, flowchart, BPMN, other UML diagram&lt;a class=&#34;anchor&#34; href=&#34;#comapare-state-chart-flowchart-bpmn-other-uml-diagram&#34;&gt;#&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;h2 id=&#34;3-what-is-workflow&#34;&gt;3. What is workflow&lt;a class=&#34;anchor&#34; href=&#34;#3-what-is-workflow&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;A workflow is the end-to-end progression of work across tasks, decisions, waiting periods, and outcomes. It can involve humans, services, data updates, and time-based rules.&lt;/p&gt;&#xA;&lt;p&gt;In production systems, workflow quality depends on determinism, recoverability, observability, and safe retries, not only on visual clarity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2. Why FSM in Postgres</title>
+      <link>http://localhost:1313/docs/docs/inspration/whyFsmInPostgres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/docs/inspration/whyFsmInPostgres/</guid>
+      <description>&lt;h1 id=&#34;why-fsm-in-postgres&#34;&gt;Why FSM in Postgres&lt;a class=&#34;anchor&#34; href=&#34;#why-fsm-in-postgres&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re new to the concept of &lt;strong&gt;Finite State Machines (FSMs)&lt;/strong&gt;, check out my previous blog post: &lt;a href=&#34;https://nirajkashyap.github.io/posts/why-finite-state-machines-are-everywhere-from-software-to-human-life/&#34;&gt;Why Finite State Machines Are Everywhere: From Software to Human Life&lt;/a&gt;. That post explores how FSMs are fundamental to both software systems and real-world processes.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;finite-state-machine-in-various-languages&#34;&gt;Finite State Machine: In Various Languages&lt;a class=&#34;anchor&#34; href=&#34;#finite-state-machine-in-various-languages&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;FSMs as a concept have been implemented in many programming languages, each with its own data structures and libraries. For example:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
